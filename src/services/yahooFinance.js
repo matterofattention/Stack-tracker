@@ -1,7 +1,7 @@
 const CORS_PROXIES = [
+  url => `/proxy.php?url=${encodeURIComponent(url)}`,
   url => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
   url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-  url => `https://thingproxy.freeboard.io/fetch/${url}`,
 ]
 const BASE_URL = 'https://query1.finance.yahoo.com/v8/finance/chart/'
 const CACHE_TTL_MS = 60 * 60 * 1000 // 1 hour
