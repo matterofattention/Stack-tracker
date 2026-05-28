@@ -1,4 +1,8 @@
-const CORS_PROXY = 'https://corsproxy.io/?url='
+const CORS_PROXIES = [
+  url => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+  url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+  url => `https://thingproxy.freeboard.io/fetch/${url}`,
+]
 const BASE_URL = 'https://query1.finance.yahoo.com/v8/finance/chart/'
 const CACHE_TTL_MS = 60 * 60 * 1000 // 1 hour
 
@@ -42,12 +46,21 @@ export async function fetchQuote(symbol, range = '5Y') {
   const { range: r, interval } = RANGE_PARAMS[range]
   const url = `${BASE_URL}${encodeURIComponent(symbol)}?range=${r}&interval=${interval}&includePrePost=false`
 
-  const res = await fetch(`${CORS_PROXY}${encodeURIComponent(url)}`)
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${symbol}`)
+  let json = null
+  let lastError = null
+  for (const proxy of CORS_PROXIES) {
+    try {
+      const res = await fetch(proxy(url))
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      json = await res.json()
+      if (json?.chart?.result?.[0]) break
+    } catch (e) {
+      lastError = e
+    }
+  }
 
-  const json = await res.json()
   const result = json?.chart?.result?.[0]
-  if (!result) throw new Error(`No data for ${symbol}`)
+  if (!result) throw new Error(lastError?.message ?? `No data for ${symbol}`)
 
   const timestamps = result.timestamp
   const closes = result.indicators.quote[0].close
