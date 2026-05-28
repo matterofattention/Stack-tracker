@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import TrackerCard from './TrackerCard'
 import DetailChart from './DetailChart'
-import { fetchQuote, TICKERS } from '../services/yahooFinance'
+import { fetchQuote, TICKERS, computeGSR } from '../services/yahooFinance'
 import './Dashboard.css'
 
 export default function Dashboard() {
@@ -13,10 +13,20 @@ export default function Dashboard() {
   useEffect(() => {
     setLoading(Object.fromEntries(TICKERS.map(t => [t, true])))
 
-    TICKERS.forEach(symbol => {
+    const fetchable = TICKERS.filter(t => t !== 'GSR')
+
+    fetchable.forEach(symbol => {
       fetchQuote(symbol, '1M')
         .then(data => {
-          setQuotes(q => ({ ...q, [symbol]: data }))
+          setQuotes(q => {
+            const next = { ...q, [symbol]: data }
+            // Recompute GSR whenever gold or silver updates
+            if (next['GC=F'] && next['SI=F']) {
+              next['GSR'] = computeGSR(next['GC=F'], next['SI=F'])
+              setLoading(l => ({ ...l, GSR: false }))
+            }
+            return next
+          })
           setLoading(l => ({ ...l, [symbol]: false }))
         })
         .catch(e => {

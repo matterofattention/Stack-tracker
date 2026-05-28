@@ -3,7 +3,7 @@ import {
   ResponsiveContainer, AreaChart, Area,
   XAxis, YAxis, CartesianGrid, Tooltip,
 } from 'recharts'
-import { fetchQuote, TICKER_NAMES, RANGES } from '../services/yahooFinance'
+import { fetchQuote, computeGSR, TICKER_NAMES, RANGES } from '../services/yahooFinance'
 import './DetailChart.css'
 
 function formatDate(dateStr, range) {
@@ -23,7 +23,13 @@ export default function DetailChart({ symbol, onClose }) {
   useEffect(() => {
     setLoading(true)
     setError(null)
-    fetchQuote(symbol, range)
+
+    const load = symbol === 'GSR'
+      ? Promise.all([fetchQuote('GC=F', range), fetchQuote('SI=F', range)])
+          .then(([gold, silver]) => computeGSR(gold, silver))
+      : fetchQuote(symbol, range)
+
+    load
       .then(setData)
       .catch(e => setError(e.message))
       .finally(() => setLoading(false))
@@ -102,7 +108,7 @@ export default function DetailChart({ symbol, onClose }) {
                   contentStyle={{ background: '#0f0f23', border: '1px solid #2d2d4e', borderRadius: 8 }}
                   labelStyle={{ color: '#94a3b8', fontSize: 12 }}
                   itemStyle={{ color: '#f1f5f9' }}
-                  formatter={v => [`${data.currency} ${v.toFixed(2)}`, 'Price']}
+                  formatter={v => [data.currency ? `${data.currency} ${v.toFixed(2)}` : v.toFixed(2), 'Price']}
                 />
                 <Area
                   type="monotone"

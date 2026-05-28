@@ -72,7 +72,7 @@ export async function fetchQuote(symbol, range = '5Y') {
   return data
 }
 
-export const TICKERS = ['SI=F', 'GC=F', 'PA=F', 'PL=F', 'GDJX', 'GDX', 'GLD', 'XLF']
+export const TICKERS = ['SI=F', 'GC=F', 'PA=F', 'PL=F', 'GDJX', 'GDX', 'GLD', 'XLF', 'GSR']
 
 export const TICKER_NAMES = {
   'SI=F':  'Silver Futures',
@@ -83,6 +83,27 @@ export const TICKER_NAMES = {
   'GDX':   'Gold Miners ETF',
   'GLD':   'Gold ETF',
   'XLF':   'Financials ETF',
+  'GSR':   'Gold/Silver Ratio',
 }
 
 export const RANGES = ['1W', '1M', '3M', '1Y', '5Y']
+
+// Derives the Gold/Silver ratio from already-fetched GC=F and SI=F data.
+// Aligns by date since the two series may not have identical timestamps.
+export function computeGSR(goldData, silverData) {
+  const silverByDate = Object.fromEntries(silverData.prices.map(p => [p.date, p.price]))
+  const prices = goldData.prices
+    .filter(p => silverByDate[p.date])
+    .map(p => ({ date: p.date, price: p.price / silverByDate[p.date] }))
+
+  const currentRatio = goldData.currentPrice / silverData.currentPrice
+  const previousRatio = goldData.previousClose / silverData.previousClose
+
+  return {
+    symbol: 'GSR',
+    currency: '',
+    currentPrice: currentRatio,
+    previousClose: previousRatio,
+    prices,
+  }
+}
