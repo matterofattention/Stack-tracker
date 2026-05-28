@@ -1,12 +1,7 @@
-import './App.css'
+import Dashboard from './components/Dashboard'
 
 function App() {
-  return (
-    <div className="app">
-      <h1>Stack Tracker</h1>
-      <p>Track stocks, ETFs, commodities, and product prices.</p>
-    </div>
-  )
+  return <Dashboard />
 }
 
 export default App
