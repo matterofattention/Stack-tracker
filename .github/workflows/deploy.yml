@@ -32,5 +32,5 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           port: 22
           local_path: './dist/*'
-          remote_path: '/stacktracker.matterofattention.com/'
+          remote_path: '/stack-tracker/'
           sftp_only: true
