@@ -1,4 +1,5 @@
-const CORS_PROXY = 'https://corsproxy.io/?url='
+// Replace with your Cloudflare Worker URL once deployed
+const WORKER_URL = 'https://icy-waterfall-4c47.aron-bd2.workers.dev'
 const BASE_URL = 'https://query1.finance.yahoo.com/v8/finance/chart/'
 const CACHE_TTL_MS = 60 * 60 * 1000 // 1 hour
 
@@ -42,9 +43,8 @@ export async function fetchQuote(symbol, range = '5Y') {
   const { range: r, interval } = RANGE_PARAMS[range]
   const url = `${BASE_URL}${encodeURIComponent(symbol)}?range=${r}&interval=${interval}&includePrePost=false`
 
-  const res = await fetch(`${CORS_PROXY}${encodeURIComponent(url)}`)
+  const res = await fetch(`${WORKER_URL}?url=${encodeURIComponent(url)}`)
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${symbol}`)
-
   const json = await res.json()
   const result = json?.chart?.result?.[0]
   if (!result) throw new Error(`No data for ${symbol}`)
