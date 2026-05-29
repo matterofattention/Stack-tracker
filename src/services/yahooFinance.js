@@ -1,5 +1,5 @@
 // Replace with your Cloudflare Worker URL once deployed
-const WORKER_URL = 'https://REPLACE_ME.workers.dev'
+const WORKER_URL = 'https://icy-waterfall-4c47.aron-bd2.workers.dev'
 const BASE_URL = 'https://query1.finance.yahoo.com/v8/finance/chart/'
 const CACHE_TTL_MS = 60 * 60 * 1000 // 1 hour
 
