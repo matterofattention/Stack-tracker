@@ -1,3 +1,5 @@
+// Replace with your Cloudflare Worker URL once deployed
+const WORKER_URL = 'https://REPLACE_ME.workers.dev'
 const BASE_URL = 'https://query1.finance.yahoo.com/v8/finance/chart/'
 const CACHE_TTL_MS = 60 * 60 * 1000 // 1 hour
 
@@ -33,30 +35,6 @@ function writeCache(key, data) {
   }
 }
 
-// Uses a script tag (JSONP) to bypass connect-src CSP restrictions.
-// The proxy wraps the Yahoo Finance response in a callback function.
-function fetchJSONP(url) {
-  return new Promise((resolve, reject) => {
-    const cb = 'st_' + Date.now() + '_' + Math.random().toString(36).slice(2)
-    const script = document.createElement('script')
-
-    window[cb] = data => {
-      delete window[cb]
-      document.head.removeChild(script)
-      resolve(data)
-    }
-
-    script.onerror = () => {
-      delete window[cb]
-      document.head.removeChild(script)
-      reject(new Error('JSONP request failed'))
-    }
-
-    script.src = `/proxy.php?callback=${cb}&url=${encodeURIComponent(url)}`
-    document.head.appendChild(script)
-  })
-}
-
 export async function fetchQuote(symbol, range = '5Y') {
   const key = cacheKey(symbol, range)
   const cached = readCache(key)
@@ -65,7 +43,9 @@ export async function fetchQuote(symbol, range = '5Y') {
   const { range: r, interval } = RANGE_PARAMS[range]
   const url = `${BASE_URL}${encodeURIComponent(symbol)}?range=${r}&interval=${interval}&includePrePost=false`
 
-  const json = await fetchJSONP(url)
+  const res = await fetch(`${WORKER_URL}?url=${encodeURIComponent(url)}`)
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${symbol}`)
+  const json = await res.json()
   const result = json?.chart?.result?.[0]
   if (!result) throw new Error(`No data for ${symbol}`)
 
