@@ -1,9 +1,7 @@
 <?php
-header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
-
 // Test endpoint: /proxy.php?test=1
 if (isset($_GET['test'])) {
+    header('Content-Type: application/json');
     echo json_encode([
         'php' => 'ok',
         'curl' => function_exists('curl_init') ? 'ok' : 'missing',
@@ -13,8 +11,10 @@ if (isset($_GET['test'])) {
 }
 
 $url = isset($_GET['url']) ? $_GET['url'] : '';
+$callback = isset($_GET['callback']) ? preg_replace('/[^a-zA-Z0-9_]/', '', $_GET['callback']) : '';
 
 if (!$url) {
+    header('Content-Type: application/json');
     http_response_code(400);
     echo json_encode(['error' => 'Missing url parameter']);
     exit;
@@ -22,12 +22,14 @@ if (!$url) {
 
 // Only allow requests to Yahoo Finance
 if (!preg_match('#^https://query[12]\.finance\.yahoo\.com/#', $url)) {
+    header('Content-Type: application/json');
     http_response_code(403);
     echo json_encode(['error' => 'Forbidden']);
     exit;
 }
 
 if (!function_exists('curl_init')) {
+    header('Content-Type: application/json');
     http_response_code(500);
     echo json_encode(['error' => 'cURL not available']);
     exit;
@@ -48,15 +50,21 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, [
 ]);
 
 $body = curl_exec($ch);
-$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 $error = curl_error($ch);
 curl_close($ch);
 
 if ($error) {
+    header('Content-Type: application/json');
     http_response_code(502);
     echo json_encode(['error' => $error]);
     exit;
 }
 
-http_response_code($status);
-echo $body;
+if ($callback) {
+    header('Content-Type: application/javascript');
+    echo $callback . '(' . $body . ')';
+} else {
+    header('Content-Type: application/json');
+    header('Access-Control-Allow-Origin: *');
+    echo $body;
+}
