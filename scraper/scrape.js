@@ -23,13 +23,34 @@ const HEADERS = {
   'Connection': 'keep-alive',
 }
 
-function extractPrice(html, url) {
+// Schema.org availability URIs -> simple status
+const AVAILABILITY_MAP = {
+  'instock':           'in_stock',
+  'inStockOnlineOnly': 'in_stock',
+  'limitedavailability': 'low_stock',
+  'presale':           'preorder',
+  'preorder':          'preorder',
+  'preorder':          'preorder',
+  'outofstock':        'out_of_stock',
+  'discontinued':      'out_of_stock',
+  'soldout':           'out_of_stock',
+}
+
+function normaliseAvailability(raw) {
+  if (!raw) return null
+  const key = raw.replace(/^https?:\/\/schema\.org\//i, '').toLowerCase()
+  return AVAILABILITY_MAP[key] ?? null
+}
+
+function extractData(html) {
   const $ = cheerio.load(html)
 
-  // Strategy 1: JSON-LD structured data (most reliable)
   let price = null
+  let inStock = null
+
+  // Strategy 1: JSON-LD structured data
   $('script[type="application/ld+json"]').each((_, el) => {
-    if (price) return
+    if (price !== null) return
     try {
       const data = JSON.parse($(el).html())
       const candidates = Array.isArray(data) ? data : [data]
@@ -40,46 +61,69 @@ function extractPrice(html, url) {
         const offers = entity.offers
         if (!offers) continue
         const offer = Array.isArray(offers) ? offers[0] : offers
-        if (offer?.price) {
+        if (offer?.price != null) {
           price = parseFloat(String(offer.price).replace(',', '.'))
-          return
         }
+        if (offer?.availability != null) {
+          inStock = normaliseAvailability(offer.availability)
+        }
+        if (price !== null) return
       }
     } catch {}
   })
-  if (price) return price
 
-  // Strategy 2: meta tags
-  const metaPrice =
-    $('meta[property="product:price:amount"]').attr('content') ||
-    $('meta[itemprop="price"]').attr('content') ||
-    $('[itemprop="price"]').attr('content')
-  if (metaPrice) {
-    price = parseFloat(metaPrice.replace(',', '.'))
-    if (!isNaN(price)) return price
+  // Strategy 2: meta / microdata tags
+  if (price === null) {
+    const metaPrice =
+      $('meta[property="product:price:amount"]').attr('content') ||
+      $('meta[itemprop="price"]').attr('content') ||
+      $('[itemprop="price"]').attr('content')
+    if (metaPrice) {
+      const val = parseFloat(metaPrice.replace(',', '.'))
+      if (!isNaN(val)) price = val
+    }
   }
 
-  // Strategy 3: site-specific CSS selectors
-  const selectors = [
-    '.woocommerce-Price-amount bdi',
-    '.woocommerce-Price-amount',
-    '[data-price]',
-    '.product-price .price',
-    '.price--product',
-    '.current-price',
-    '.product__price',
-    'span.price',
-    '.price',
-  ]
-  for (const sel of selectors) {
-    const el = $(sel).first()
-    if (!el.length) continue
-    const raw = (el.attr('data-price') || el.text()).replace(/[€\s ]/g, '').replace(',', '.')
-    const val = parseFloat(raw)
-    if (!isNaN(val) && val > 0) return val
+  if (inStock === null) {
+    const metaAvail =
+      $('meta[property="product:availability"]').attr('content') ||
+      $('[itemprop="availability"]').attr('content') ||
+      $('[itemprop="availability"]').attr('href')
+    inStock = normaliseAvailability(metaAvail)
   }
 
-  return null
+  // Strategy 3: CSS selectors for price
+  if (price === null) {
+    const priceSelectors = [
+      '.woocommerce-Price-amount bdi',
+      '.woocommerce-Price-amount',
+      '[data-price]',
+      '.product-price .price',
+      '.price--product',
+      '.current-price',
+      '.product__price',
+      'span.price',
+      '.price',
+    ]
+    for (const sel of priceSelectors) {
+      const el = $(sel).first()
+      if (!el.length) continue
+      const raw = (el.attr('data-price') || el.text()).replace(/[€\s ]/g, '').replace(',', '.')
+      const val = parseFloat(raw)
+      if (!isNaN(val) && val > 0) { price = val; break }
+    }
+  }
+
+  // Strategy 4: CSS selectors for stock status
+  if (inStock === null) {
+    if ($('.stock.in-stock, .in-stock, [class*="in-stock"], [class*="instock"]').length) {
+      inStock = 'in_stock'
+    } else if ($('.stock.out-of-stock, .out-of-stock, [class*="out-of-stock"], [class*="outofstock"], .sold-out').length) {
+      inStock = 'out_of_stock'
+    }
+  }
+
+  return { price, inStock }
 }
 
 async function scrapeUrl(url) {
@@ -89,19 +133,18 @@ async function scrapeUrl(url) {
       timeout: 15000,
       maxRedirects: 5,
     })
-    return extractPrice(res.data, url)
+    return extractData(res.data)
   } catch (err) {
     console.error(`  Failed ${url}: ${err.message}`)
-    return null
+    return { price: null, inStock: null }
   }
 }
 
-// Deduplicate URLs so each unique URL is only fetched once
 async function scrapeAll() {
   console.log(`Scraping ${products.length} products across 3 retailers…`)
 
-  // Collect all unique URLs
-  const urlMap = new Map() // url -> price
+  // Collect unique URLs
+  const urlMap = new Map() // url -> { price, inStock }
   for (const product of products) {
     for (const url of Object.values(product.retailers)) {
       if (url && !urlMap.has(url)) urlMap.set(url, null)
@@ -110,27 +153,26 @@ async function scrapeAll() {
 
   console.log(`Fetching ${urlMap.size} unique URLs…`)
 
-  // Fetch with a small delay between requests to be polite
   for (const url of urlMap.keys()) {
     console.log(`  Fetching: ${url}`)
-    const price = await scrapeUrl(url)
-    urlMap.set(url, price)
-    console.log(`  → ${price != null ? `€${price}` : 'not found'}`)
+    const result = await scrapeUrl(url)
+    urlMap.set(url, result)
+    console.log(`  → price: ${result.price != null ? `€${result.price}` : 'not found'} | stock: ${result.inStock ?? 'unknown'}`)
     await new Promise(r => setTimeout(r, 1500))
   }
 
-  // Build output
   const results = products.map(product => ({
     name: product.name,
     prices: Object.fromEntries(
-      Object.entries(product.retailers).map(([retailer, url]) => [
-        retailer,
-        {
+      Object.entries(product.retailers).map(([retailer, url]) => {
+        const scraped = url ? urlMap.get(url) : null
+        return [retailer, {
           label: RETAILER_LABELS[retailer],
           url,
-          price: url ? urlMap.get(url) : null,
-        },
-      ])
+          price: scraped?.price ?? null,
+          inStock: scraped?.inStock ?? null,
+        }]
+      })
     ),
   }))
 

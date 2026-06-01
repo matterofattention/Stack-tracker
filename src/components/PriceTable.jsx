@@ -8,9 +8,42 @@ const RETAILER_LABELS = {
   'hollandgold': 'Holland Gold',
 }
 
+// Shipping costs per retailer — update when rates change
+const SHIPPING = {
+  '101munten':         { cost: null, freeAbove: null, note: '—' },
+  'goudwisselkantoor': { cost: null, freeAbove: null, note: '—' },
+  'hollandgold':       { cost: null, freeAbove: null, note: '—' },
+}
+
+const STOCK_LABELS = {
+  in_stock:     { label: 'In stock',    className: 'stock-in' },
+  low_stock:    { label: 'Low stock',   className: 'stock-low' },
+  preorder:     { label: 'Pre-order',   className: 'stock-pre' },
+  out_of_stock: { label: 'Out of stock',className: 'stock-out' },
+}
+
 function formatPrice(price) {
   if (price == null) return '—'
   return new Intl.NumberFormat('nl-NL', { style: 'currency', currency: 'EUR' }).format(price)
+}
+
+function StockBadge({ status }) {
+  if (!status) return <span className="stock-unknown">?</span>
+  const { label, className } = STOCK_LABELS[status] ?? { label: status, className: '' }
+  return <span className={`stock-badge ${className}`}>{label}</span>
+}
+
+function ShippingRow() {
+  return (
+    <tr className="shipping-row">
+      <td className="pt-name">Shipping</td>
+      {RETAILERS.map(r => (
+        <td key={r} className="pt-shipping">
+          {SHIPPING[r].note}
+        </td>
+      ))}
+    </tr>
+  )
 }
 
 export default function PriceTable() {
@@ -63,6 +96,7 @@ export default function PriceTable() {
             </tr>
           </thead>
           <tbody>
+            <ShippingRow />
             {filtered.map(product => {
               const availablePrices = RETAILERS
                 .map(r => product.prices[r]?.price)
@@ -78,9 +112,12 @@ export default function PriceTable() {
                     return (
                       <td key={r} className={`pt-price ${isLowest ? 'lowest' : ''}`}>
                         {entry?.url ? (
-                          <a href={entry.url} target="_blank" rel="noopener noreferrer">
-                            {formatPrice(entry.price)}
-                          </a>
+                          <>
+                            <a href={entry.url} target="_blank" rel="noopener noreferrer">
+                              {formatPrice(entry.price)}
+                            </a>
+                            <StockBadge status={entry.inStock} />
+                          </>
                         ) : (
                           <span className="pt-na">—</span>
                         )}
