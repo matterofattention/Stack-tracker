@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
 import TrackerCard from './TrackerCard'
 import DetailChart from './DetailChart'
+import PriceTable from './PriceTable'
 import { fetchQuote, TICKERS, computeGSR } from '../services/yahooFinance'
 import './Dashboard.css'
 
 export default function Dashboard() {
+  const [tab, setTab] = useState('markets')
   const [quotes, setQuotes] = useState({})
   const [errors, setErrors] = useState({})
   const [loading, setLoading] = useState({})
@@ -20,7 +22,6 @@ export default function Dashboard() {
         .then(data => {
           setQuotes(q => {
             const next = { ...q, [symbol]: data }
-            // Recompute GSR whenever gold or silver updates
             if (next['GC=F'] && next['SI=F']) {
               next['GSR'] = computeGSR(next['GC=F'], next['SI=F'])
               setLoading(l => ({ ...l, GSR: false }))
@@ -40,21 +41,38 @@ export default function Dashboard() {
     <div className="dashboard">
       <header className="dashboard-header">
         <h1>Stack Tracker</h1>
-        <span className="dashboard-subtitle">Precious metals &amp; financials</span>
+        <div className="dashboard-tabs">
+          <button
+            className={tab === 'markets' ? 'active' : ''}
+            onClick={() => setTab('markets')}
+          >
+            Markets
+          </button>
+          <button
+            className={tab === 'prices' ? 'active' : ''}
+            onClick={() => setTab('prices')}
+          >
+            Shop Prices
+          </button>
+        </div>
       </header>
 
-      <div className="tracker-grid">
-        {TICKERS.map(symbol => (
-          <TrackerCard
-            key={symbol}
-            symbol={symbol}
-            data={quotes[symbol]}
-            error={errors[symbol]}
-            loading={loading[symbol]}
-            onClick={() => setSelected(symbol)}
-          />
-        ))}
-      </div>
+      {tab === 'markets' && (
+        <div className="tracker-grid">
+          {TICKERS.map(symbol => (
+            <TrackerCard
+              key={symbol}
+              symbol={symbol}
+              data={quotes[symbol]}
+              error={errors[symbol]}
+              loading={loading[symbol]}
+              onClick={() => setSelected(symbol)}
+            />
+          ))}
+        </div>
+      )}
+
+      {tab === 'prices' && <PriceTable />}
 
       {selected && (
         <DetailChart symbol={selected} onClose={() => setSelected(null)} />

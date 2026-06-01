@@ -1,0 +1,106 @@
+.price-table-wrap {
+  margin-top: 2rem;
+}
+
+.pt-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pt-search {
+  background: #1a1a2e;
+  border: 1px solid #2d2d4e;
+  border-radius: 8px;
+  color: #f1f5f9;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+  width: 260px;
+  outline: none;
+}
+
+.pt-search:focus {
+  border-color: #6366f1;
+}
+
+.pt-updated {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.pt-scroll {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid #2d2d4e;
+}
+
+.pt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.pt-table th {
+  background: #1a1a2e;
+  color: #94a3b8;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid #2d2d4e;
+}
+
+.pt-table td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid #1a1a2e;
+  color: #e2e8f0;
+  white-space: nowrap;
+}
+
+.pt-table tr:last-child td {
+  border-bottom: none;
+}
+
+.pt-table tr:hover td {
+  background: #1a1a2e;
+}
+
+.pt-name {
+  color: #f1f5f9;
+  font-weight: 500;
+  white-space: normal !important;
+  min-width: 220px;
+}
+
+.pt-price a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.pt-price a:hover {
+  color: #6366f1;
+  text-decoration: underline;
+}
+
+.pt-price.lowest a {
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.pt-na {
+  color: #334155;
+}
+
+.pt-status {
+  color: #64748b;
+  font-size: 0.875rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.pt-status.error {
+  color: #f87171;
+}
