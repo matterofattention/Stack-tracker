@@ -15,9 +15,32 @@
   margin: 0 0 0.25rem;
 }
 
-.dashboard-subtitle {
-  font-size: 0.875rem;
+.dashboard-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.dashboard-tabs button {
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #2d2d4e;
+  background: transparent;
   color: #64748b;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.dashboard-tabs button:hover {
+  border-color: #6366f1;
+  color: #e2e8f0;
+}
+
+.dashboard-tabs button.active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: #fff;
 }
 
 .tracker-grid {

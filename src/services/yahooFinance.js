@@ -72,14 +72,14 @@ export async function fetchQuote(symbol, range = '5Y') {
   return data
 }
 
-export const TICKERS = ['SI=F', 'GC=F', 'PA=F', 'PL=F', 'GDJX', 'GDX', 'GLD', 'XLF', 'GSR']
+export const TICKERS = ['SI=F', 'GC=F', 'PA=F', 'PL=F', 'GDXJ', 'GDX', 'GLD', 'XLF', 'GSR']
 
 export const TICKER_NAMES = {
   'SI=F':  'Silver Futures',
   'GC=F':  'Gold Futures',
   'PA=F':  'Palladium Futures',
   'PL=F':  'Platinum Futures',
-  'GDJX':  'Gold Miners Jr (GDJX)',
+  'GDXJ':  'Gold Miners Jr (GDXJ)',
   'GDX':   'Gold Miners ETF',
   'GLD':   'Gold ETF',
   'XLF':   'Financials ETF',
