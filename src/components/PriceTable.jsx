@@ -53,7 +53,7 @@ export default function PriceTable() {
   const [search, setSearch] = useState('')
 
   useEffect(() => {
-    fetch('/prices.json')
+    fetch('https://raw.githubusercontent.com/matterofattention/Stack-tracker/main/public/prices.json')
       .then(r => r.json())
       .then(setData)
       .catch(() => setError('Could not load prices'))
