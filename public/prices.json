@@ -1,4 +1,1868 @@
 {
-  "lastUpdated": null,
-  "products": []
+  "lastUpdated": "2026-06-01T12:21:38.225Z",
+  "products": [
+    {
+      "name": "Britannia 1 oz 2026",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2026-king-charles-iii/",
+          "price": 70.52,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-britannia-1-oz-nieuw",
+          "price": 110,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Britannia 1 oz 2024",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2024-king-charles-iii/",
+          "price": 128.29,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-britannia-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/britannia-1-troy-ounce-zilveren-munt.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Britannia 1 oz 2022",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2022/",
+          "price": 128.29,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-britannia-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/britannia-1-troy-ounce-zilveren-munt.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Britannia 1 oz 2021",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2021-2/",
+          "price": 128.44,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-britannia-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/britannia-1-troy-ounce-zilveren-munt.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2026",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2026/",
+          "price": 70.47,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-2026-nieuw",
+          "price": 110,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-2026-1-troy-ounce-zilveren-munt.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2025",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2025/",
+          "price": 78.11,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2024",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2024/",
+          "price": 115.09,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2023",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/zilveren-krugerrand-1-oz-2023/",
+          "price": 128.54,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2022",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/zilveren-krugerrand-1-oz-2022/",
+          "price": 153.59,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2021",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2021-2/",
+          "price": 163.44,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2020",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2020/",
+          "price": 138.37,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2019",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/krugerrand-1-oz-2019/",
+          "price": 120.04,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2018",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2018/",
+          "price": 147.75,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Krugerrand zilver 1 oz 2017",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/krugerrand-1-oz-2017/",
+          "price": 162.73,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-krugerrand-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2026",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-nieuw",
+          "price": 98.2,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-2026-1-troy-ounce-zilveren-munt.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2025",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2024",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2023",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2022",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2021",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2020",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2019",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2018",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2017",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2016",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2015",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2014",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2013",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2012",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2011",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2010",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Wiener Philharmoniker 1 oz 2009",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/wiener-philharmoniker/wiener-philharmoniker-1-oz-2009-9-014-800-opage/",
+          "price": 128.54,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-philharmoniker-1-oz-divers-jaar",
+          "price": 85.8,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2026",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-nieuw",
+          "price": 90.9,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-2026-1-troy-ounce-zilveren-munt.html",
+          "price": 83.87,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2025",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilveren-munt-2025.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2024",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2023",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2022",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2021",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2020",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/canadian-maple-leaf/canadian-maple-leaf-1oz-2020/",
+          "price": 128.21,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2019",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2018",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2017",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2016",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2015",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2014",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2013",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2012",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2011",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2010",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Canadian Maple Leaf 1 oz 2009",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-maple-leaf-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2026",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2026/",
+          "price": 72.57,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/munten/zilveren-american-eagle-1-oz",
+          "price": 113,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2025",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2025/",
+          "price": 75.98,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2024",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2024/",
+          "price": 153.31,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2023",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2023/",
+          "price": 99.98,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2022",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2022/",
+          "price": 130,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2021",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2021/",
+          "price": 148.95,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2020",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2020/",
+          "price": 138.95,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2019",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2019/",
+          "price": 139.95,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2018",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2018/",
+          "price": 134.95,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2017",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2017/",
+          "price": 162.44,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2016",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2016/",
+          "price": 143.91,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2015",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2015-47-000-000-oplage/",
+          "price": 150.42,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2014",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2014-44-006-000-oplage/",
+          "price": 129.37,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2013",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2013/",
+          "price": 144.7,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2012",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2012/",
+          "price": 129.7,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "American Eagle 1 oz 2011",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2011/",
+          "price": 139.94,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/zilveren-american-eagle-1-oz-divers-jaar",
+          "price": 85.7,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
+          "price": null,
+          "inStock": "in_stock"
+        }
+      }
+    },
+    {
+      "name": "Nadir zilverbaar 5 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/5-gram-nadir-zilverbaar/",
+          "price": 18.46,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Nadir zilverbaar 10 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/10-gram-nadir-zilverbaar/",
+          "price": 35.41,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Nadir zilverbaar 20 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/20-gram-nadir-zilverbaar/",
+          "price": 60.14,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Nadir zilverbaar 50 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/50-gram-nadir-zilverbaar/",
+          "price": 131.55,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Nadir zilverbaar 100 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/100-gram-nadir-zilverbaar/",
+          "price": 265.1,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Nadir zilverbaar 250 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/250-gram-nadir-zilverbaar/",
+          "price": 582.03,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Nadir zilverbaar 1 oz",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/1-oz-nadir-zilverbaar/",
+          "price": 80.04,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Heimerle Meule zilverbaar 1 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/heimerle-meule-1-gram-zilverbaar/",
+          "price": 4.83,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Heimerle Meule zilverbaar 1 oz (LBMA)",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/1-oz-heimerle-meule-zilver-baar/",
+          "price": 82.59,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Umicore zilverbaar 10 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/baren/zilverbaar-umicore-10-gram",
+          "price": 65.6,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Umicore zilverbaar 20 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/baren/zilverbaar-umicore-20-gram",
+          "price": 124.5,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Umicore zilverbaar 50 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-baren/umicore-50-gram-zilverbaar/",
+          "price": 197.23,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/baren/zilverbaar-umicore-50-gram",
+          "price": 240,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Umicore zilverbaar 100 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/zilveren-baren/100-gram-umicore-zilverbaar/",
+          "price": 274.15,
+          "inStock": "out_of_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": "https://www.shop-goudwisselkantoor.nl/zilver-kopen/baren/zilverbaar-umicore-100-gram",
+          "price": 423,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    },
+    {
+      "name": "Valcambi CombiBar 100 x 1 gram",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": "https://www.hollandgold.nl/zilver-kopen/zilverbaren/combibar-100x1g-zilver.html",
+          "price": 453.65,
+          "inStock": "out_of_stock"
+        }
+      }
+    },
+    {
+      "name": "USA Atlantis Mint Skull Bones 10 gram gegoten zilverbaar",
+      "prices": {
+        "101munten": {
+          "label": "101 Munten",
+          "url": "https://www.101munten.nl/product/zilver/10-gram-gegoten-zilverbaar/",
+          "price": 30.8,
+          "inStock": "in_stock"
+        },
+        "goudwisselkantoor": {
+          "label": "Goudwisselkantoor",
+          "url": null,
+          "price": null,
+          "inStock": null
+        },
+        "hollandgold": {
+          "label": "Holland Gold",
+          "url": null,
+          "price": null,
+          "inStock": null
+        }
+      }
+    }
+  ]
 }
