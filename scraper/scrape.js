@@ -95,6 +95,7 @@ function extractData(html) {
   // Strategy 3: CSS selectors for price
   if (price === null) {
     const priceSelectors = [
+      '.product-overview__info__price',
       '.woocommerce-Price-amount bdi',
       '.woocommerce-Price-amount',
       '[data-price]',
