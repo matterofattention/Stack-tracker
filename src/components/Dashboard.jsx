@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import TrackerCard from './TrackerCard'
 import DetailChart from './DetailChart'
 import PriceTable from './PriceTable'
+import ScrapPricesTab from './ScrapPricesTab'
 import { fetchQuote, TICKERS, computeGSR } from '../services/yahooFinance'
 import './Dashboard.css'
 
@@ -54,6 +55,12 @@ export default function Dashboard() {
           >
             Shop Prices
           </button>
+          <button
+            className={tab === 'scrap' ? 'active' : ''}
+            onClick={() => setTab('scrap')}
+          >
+            Scrap Prices
+          </button>
         </div>
       </header>
 
@@ -73,6 +80,8 @@ export default function Dashboard() {
       )}
 
       {tab === 'prices' && <PriceTable />}
+
+      {tab === 'scrap' && <ScrapPricesTab />}
 
       {selected && (
         <DetailChart symbol={selected} onClose={() => setSelected(null)} />
