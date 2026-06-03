@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T05:33:10.030Z",
+  "lastUpdated": "2026-06-03T11:59:28.112Z",
   "products": [
     {
       "name": "Britannia 1 oz 2026",
@@ -7,7 +7,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2026-king-charles-iii/",
-          "price": 69.74,
+          "price": 69.58,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -30,7 +30,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2024-king-charles-iii/",
-          "price": 127.4,
+          "price": 126.57,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -53,7 +53,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2022/",
-          "price": 126.76,
+          "price": 126.57,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -76,7 +76,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2021-2/",
-          "price": 127.22,
+          "price": 126.39,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -260,7 +260,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/krugerrand-1-oz-2019/",
-          "price": 119.42,
+          "price": 119,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -306,7 +306,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/krugerrand-1-oz-2017/",
-          "price": 161.05,
+          "price": 159.64,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -720,7 +720,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/wiener-philharmoniker/wiener-philharmoniker-1-oz-2009-9-014-800-opage/",
-          "price": 127.22,
+          "price": 126.38,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -881,7 +881,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/canadian-maple-leaf/canadian-maple-leaf-1oz-2020/",
-          "price": 126.76,
+          "price": 126.41,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1157,7 +1157,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2026/",
-          "price": 72.19,
+          "price": 72.22,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1180,7 +1180,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2025/",
-          "price": 75.17,
+          "price": 75,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1203,7 +1203,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2024/",
-          "price": 152.06,
+          "price": 151.75,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1295,7 +1295,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2020/",
-          "price": 137.38,
+          "price": 136.99,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1341,7 +1341,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2018/",
-          "price": 133.38,
+          "price": 132.99,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1364,7 +1364,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2017/",
-          "price": 160.48,
+          "price": 159.99,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1387,7 +1387,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2016/",
-          "price": 142.38,
+          "price": 142.18,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1433,7 +1433,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2014-44-006-000-oplage/",
-          "price": 128.25,
+          "price": 128.06,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1456,7 +1456,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2013/",
-          "price": 143.01,
+          "price": 142.59,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1479,7 +1479,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2012/",
-          "price": 128.38,
+          "price": 127.99,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1502,7 +1502,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2011/",
-          "price": 138.01,
+          "price": 137.59,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1548,7 +1548,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/10-gram-nadir-zilverbaar/",
-          "price": 35.13,
+          "price": 35.08,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1571,7 +1571,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/20-gram-nadir-zilverbaar/",
-          "price": 59.76,
+          "price": 59.71,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1594,7 +1594,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/50-gram-nadir-zilverbaar/",
-          "price": 130.16,
+          "price": 129.89,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1617,7 +1617,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/100-gram-nadir-zilverbaar/",
-          "price": 262.32,
+          "price": 261.77,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1640,7 +1640,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/250-gram-nadir-zilverbaar/",
-          "price": 578.95,
+          "price": 577.38,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1663,7 +1663,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/1-oz-nadir-zilverbaar/",
-          "price": 79.17,
+          "price": 79,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1709,7 +1709,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/1-oz-heimerle-meule-zilver-baar/",
-          "price": 81.58,
+          "price": 81.38,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1778,7 +1778,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-baren/umicore-50-gram-zilverbaar/",
-          "price": 196,
+          "price": 195.48,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1801,7 +1801,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-baren/100-gram-umicore-zilverbaar/",
-          "price": 271.37,
+          "price": 270.63,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1847,7 +1847,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/10-gram-gegoten-zilverbaar/",
-          "price": 30.64,
+          "price": 30.56,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
