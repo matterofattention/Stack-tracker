@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T10:37:31.590Z",
+  "lastUpdated": "2026-06-10T10:59:12.946Z",
   "sources": [
     {
       "id": "xgoud",
@@ -18,7 +18,7 @@
             "24 karat",
             "999"
           ],
-          "pricePerGram": 1.85
+          "pricePerGram": 1.76
         }
       ],
       "silver": [
@@ -31,7 +31,7 @@
             ".999",
             "999"
           ],
-          "pricePerGram": 1.85
+          "pricePerGram": 1.76
         },
         {
           "key": "925",
@@ -42,7 +42,7 @@
             ".925",
             "925"
           ],
-          "pricePerGram": 1.39
+          "pricePerGram": 1.32
         },
         {
           "key": "835",
@@ -52,7 +52,7 @@
             ".835",
             "835"
           ],
-          "pricePerGram": 1.16
+          "pricePerGram": 1.1
         },
         {
           "key": "800",
@@ -62,7 +62,7 @@
             ".800",
             "800"
           ],
-          "pricePerGram": 1.1
+          "pricePerGram": 1.05
         }
       ]
     }
