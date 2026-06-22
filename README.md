@@ -2,6 +2,10 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Deployment
+
+Deployed via Cloudflare Pages, connected directly to this GitHub repo (build command `npm run build`, output directory `dist`). The site sits behind Cloudflare Access, restricted to a single user — both the custom domain and the `*.pages.dev` project URL are gated, so there's no public fallback.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
