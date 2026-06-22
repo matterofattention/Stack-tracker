@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Deployment
 
-Deployed via Cloudflare Pages, connected directly to this GitHub repo (build command `npm run build`, output directory `dist`). The site sits behind Cloudflare Access, restricted to a single user — both the custom domain and the `*.pages.dev` project URL are gated, so there's no public fallback.
+Deployed as a Cloudflare Worker (static assets), connected directly to this GitHub repo via Cloudflare's Git integration: build command `npm run build`, deploy command `npx wrangler deploy` (see `wrangler.jsonc`). The site sits behind Cloudflare Access, restricted to a single user — both the custom domain and the `*.workers.dev` project URL are gated, so there's no public fallback.
 
 Currently, two official plugins are available:
 
