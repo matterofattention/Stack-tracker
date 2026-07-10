@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T10:39:06.230Z",
+  "lastUpdated": "2026-07-10T10:26:15.240Z",
   "products": [
     {
       "name": "Britannia 1 oz 2026",
@@ -30,7 +30,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2024-king-charles-iii/",
-          "price": 101.82,
+          "price": 103.31,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -42,7 +42,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/britannia-1-troy-ounce-zilveren-munt.html",
-          "price": 60.11,
+          "price": 60.74,
           "inStock": "in_stock"
         }
       }
@@ -53,7 +53,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/britannia-en-britain-landmark/britannia-1-oz-2022/",
-          "price": 101.82,
+          "price": 102.72,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -65,7 +65,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/britannia-1-troy-ounce-zilveren-munt.html",
-          "price": 60.11,
+          "price": 60.74,
           "inStock": "in_stock"
         }
       }
@@ -88,7 +88,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/britannia-1-troy-ounce-zilveren-munt.html",
-          "price": 60.11,
+          "price": 60.74,
           "inStock": "in_stock"
         }
       }
@@ -99,7 +99,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2026/",
-          "price": 58.65,
+          "price": 57.92,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -111,7 +111,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-2026-1-troy-ounce-zilveren-munt.html",
-          "price": 67.74,
+          "price": 68.45,
           "inStock": "in_stock"
         }
       }
@@ -122,7 +122,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2025/",
-          "price": 61.09,
+          "price": 63.03,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -134,8 +134,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -157,8 +157,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -180,8 +180,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -191,7 +191,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/zilveren-krugerrand-1-oz-2022/",
-          "price": 121.62,
+          "price": 122.69,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -203,8 +203,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -214,7 +214,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2021-2/",
-          "price": 137.22,
+          "price": 137.72,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -226,8 +226,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -249,8 +249,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -272,8 +272,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -283,7 +283,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/krugerrand-zilver/krugerrand-1-oz-2018/",
-          "price": 117.04,
+          "price": 118.07,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -295,8 +295,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -306,7 +306,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/krugerrand-1-oz-2017/",
-          "price": 127.52,
+          "price": 130.04,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -318,8 +318,8 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-1-troy-ounce-zilveren-munt-diverse-jaartallen.html",
-          "price": 60.1,
-          "inStock": "in_stock"
+          "price": 60.74,
+          "inStock": "out_of_stock"
         }
       }
     },
@@ -341,7 +341,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-2026-1-troy-ounce-zilveren-munt.html",
-          "price": 67.72,
+          "price": 68.45,
           "inStock": "in_stock"
         }
       }
@@ -364,7 +364,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -387,7 +387,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -410,7 +410,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -433,7 +433,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -456,7 +456,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -479,7 +479,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -502,7 +502,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -525,7 +525,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -548,7 +548,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -571,7 +571,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -594,7 +594,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -617,7 +617,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -640,7 +640,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -663,7 +663,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -686,7 +686,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -709,7 +709,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -720,7 +720,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/wiener-philharmoniker/wiener-philharmoniker-1-oz-2009-9-014-800-opage/",
-          "price": 101.82,
+          "price": 103.04,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -732,7 +732,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/philharmoniker-1-troy-ounce-div-jaartallen.html",
-          "price": 59.58,
+          "price": 60.22,
           "inStock": "in_stock"
         }
       }
@@ -755,7 +755,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-2026-1-troy-ounce-zilveren-munt.html",
-          "price": 67.72,
+          "price": 68.45,
           "inStock": "in_stock"
         }
       }
@@ -778,7 +778,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilveren-munt-2025.html",
-          "price": 67.41,
+          "price": 68.14,
           "inStock": "in_stock"
         }
       }
@@ -801,7 +801,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -824,7 +824,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -847,7 +847,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -870,7 +870,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -881,7 +881,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/canadian-maple-leaf/canadian-maple-leaf-1oz-2020/",
-          "price": 101.82,
+          "price": 102.79,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -893,7 +893,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -916,7 +916,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -939,7 +939,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -962,7 +962,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -985,7 +985,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1008,7 +1008,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1031,7 +1031,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1054,7 +1054,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1077,7 +1077,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1100,7 +1100,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1123,7 +1123,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1146,7 +1146,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/maple-leaf-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 59.84,
+          "price": 60.48,
           "inStock": "in_stock"
         }
       }
@@ -1180,7 +1180,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2025/",
-          "price": 62.58,
+          "price": 63.06,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1215,7 +1215,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1238,7 +1238,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1261,7 +1261,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1272,7 +1272,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2021/",
-          "price": 131.26,
+          "price": 132.67,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1284,7 +1284,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1307,7 +1307,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1318,7 +1318,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2019/",
-          "price": 112.54,
+          "price": 114.11,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1330,7 +1330,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1341,7 +1341,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2018/",
-          "price": 108.12,
+          "price": 109.11,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1353,7 +1353,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1364,7 +1364,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2017/",
-          "price": 128.17,
+          "price": 130.14,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1376,7 +1376,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1387,7 +1387,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2016/",
-          "price": 118.58,
+          "price": 117.44,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1399,7 +1399,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1422,7 +1422,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1445,7 +1445,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1468,7 +1468,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1491,7 +1491,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1502,7 +1502,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-munten/american-eagle/american-eagle-1-oz-2011/",
-          "price": 110.85,
+          "price": 111.92,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1514,7 +1514,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/american-eagle-1-troy-ounce-zilver-div-jaartallen.html",
-          "price": 61.9,
+          "price": 62.59,
           "inStock": "in_stock"
         }
       }
@@ -1525,7 +1525,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/5-gram-nadir-zilverbaar/",
-          "price": 16.29,
+          "price": 16.37,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1548,7 +1548,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/10-gram-nadir-zilverbaar/",
-          "price": 30.75,
+          "price": 31.24,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1571,7 +1571,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/20-gram-nadir-zilverbaar/",
-          "price": 51.67,
+          "price": 51.98,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1594,7 +1594,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/50-gram-nadir-zilverbaar/",
-          "price": 109.89,
+          "price": 110.62,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1640,7 +1640,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/250-gram-nadir-zilverbaar/",
-          "price": 483.28,
+          "price": 485.08,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1709,7 +1709,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/1-oz-heimerle-meule-zilver-baar/",
-          "price": 67.68,
+          "price": 67.41,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1778,7 +1778,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-baren/umicore-50-gram-zilverbaar/",
-          "price": 157.54,
+          "price": 159.01,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1801,7 +1801,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/zilveren-baren/100-gram-umicore-zilverbaar/",
-          "price": 230.88,
+          "price": 232.43,
           "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
@@ -1836,7 +1836,7 @@
         "hollandgold": {
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilverbaren/combibar-100x1g-zilver.html",
-          "price": 361.16,
+          "price": 365.27,
           "inStock": "out_of_stock"
         }
       }
