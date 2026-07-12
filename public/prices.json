@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T08:49:48.895Z",
+  "lastUpdated": "2026-07-12T09:04:45.955Z",
   "products": [
     {
       "name": "Britannia 1 oz 2026",
@@ -1226,8 +1226,8 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/american-eagle-1-oz-2023/",
-          "price": 87.41,
-          "inStock": "out_of_stock"
+          "price": 125,
+          "inStock": "in_stock"
         },
         "goudwisselkantoor": {
           "label": "Goudwisselkantoor",
