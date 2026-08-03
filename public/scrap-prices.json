@@ -1,70 +1,12 @@
 {
-  "lastUpdated": "2026-08-02T09:11:29.820Z",
+  "lastUpdated": "2026-08-03T10:44:36.608Z",
   "sources": [
     {
       "id": "xgoud",
       "name": "XGoud",
       "url": "https://www.xgoud.nl/",
-      "gold": [
-        {
-          "key": "999",
-          "purity": "999/1000",
-          "karat": "24k",
-          "terms": [
-            "999.9",
-            "999/1000",
-            "24 krt",
-            "24k",
-            "24 karat",
-            "999"
-          ],
-          "pricePerGram": 1.71
-        }
-      ],
-      "silver": [
-        {
-          "key": "999",
-          "purity": "999/1000",
-          "terms": [
-            "999.9",
-            "999/1000",
-            ".999",
-            "999"
-          ],
-          "pricePerGram": 1.71
-        },
-        {
-          "key": "925",
-          "purity": "925/1000",
-          "terms": [
-            "925/1000",
-            "sterling",
-            ".925",
-            "925"
-          ],
-          "pricePerGram": 1.28
-        },
-        {
-          "key": "835",
-          "purity": "835/1000",
-          "terms": [
-            "835/1000",
-            ".835",
-            "835"
-          ],
-          "pricePerGram": 1.07
-        },
-        {
-          "key": "800",
-          "purity": "800/1000",
-          "terms": [
-            "800/1000",
-            ".800",
-            "800"
-          ],
-          "pricePerGram": 1.02
-        }
-      ]
+      "gold": [],
+      "silver": []
     }
   ]
 }
