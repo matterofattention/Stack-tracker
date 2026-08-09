@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T07:51:58.639Z",
+  "lastUpdated": "2026-08-09T07:56:06.101Z",
   "products": [
     {
       "name": "Britannia 1 oz 2026",
@@ -1595,7 +1595,7 @@
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/50-gram-nadir-zilverbaar/",
           "price": 115.26,
-          "inStock": "in_stock"
+          "inStock": "out_of_stock"
         },
         "goudwisselkantoor": {
           "label": "Goudwisselkantoor",
