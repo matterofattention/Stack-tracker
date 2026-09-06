@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T11:11:18.041Z",
+  "lastUpdated": "2026-09-06T11:34:37.181Z",
   "products": [
     {
       "name": "Britannia 1 oz 2026",
@@ -112,7 +112,7 @@
           "label": "Holland Gold",
           "url": "https://www.hollandgold.nl/zilver-kopen/zilveren-munten-kopen/krugerrand-2026-1-troy-ounce-zilveren-munt.html",
           "price": 74.84,
-          "inStock": "in_stock"
+          "inStock": null
         }
       }
     },
@@ -1617,7 +1617,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/100-gram-nadir-zilverbaar/",
-          "price": 238.7,
+          "price": 239.22,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
@@ -1847,7 +1847,7 @@
         "101munten": {
           "label": "101 Munten",
           "url": "https://www.101munten.nl/product/zilver/10-gram-gegoten-zilverbaar/",
-          "price": 28.27,
+          "price": 28.32,
           "inStock": "in_stock"
         },
         "goudwisselkantoor": {
