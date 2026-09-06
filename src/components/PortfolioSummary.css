@@ -1,0 +1,47 @@
+.portfolio-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.1rem 1.3rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.summary-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.summary-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.summary-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.summary-note {
+  font-size: 0.75rem;
+  color: var(--negative);
+}
+
+.summary-card--main.is-positive .summary-value,
+.summary-sub.is-positive {
+  color: var(--positive);
+}
+
+.summary-card--main.is-negative .summary-value,
+.summary-sub.is-negative {
+  color: var(--negative);
+}

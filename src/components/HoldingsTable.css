@@ -1,0 +1,102 @@
+.holdings-empty {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--text-muted);
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+
+.holdings-table-wrapper {
+  overflow-x: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.holdings-table th {
+  text-align: left;
+  padding: 0.8rem 1rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.holdings-table td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.holdings-table tr:last-child td {
+  border-bottom: none;
+}
+
+.holding-name {
+  font-weight: 600;
+}
+
+.holding-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.metal-tag {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.metal-tag--gold {
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--gold);
+}
+
+.metal-tag--silver {
+  background: rgba(192, 197, 204, 0.15);
+  color: var(--silver);
+}
+
+.is-positive {
+  color: var(--positive);
+}
+
+.is-negative {
+  color: var(--negative);
+}
+
+.holdings-actions {
+  display: flex;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.icon-btn {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 6px;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.icon-btn:hover {
+  background: var(--border);
+}
+
+.icon-btn--danger:hover {
+  background: rgba(248, 113, 113, 0.2);
+  color: var(--negative);
+}
