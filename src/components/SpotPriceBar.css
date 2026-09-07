@@ -1,0 +1,89 @@
+.spot-price-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.spot-price-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding-right: 1rem;
+  border-right: 1px solid var(--border);
+}
+
+.spot-price-card:last-of-type {
+  border-right: none;
+}
+
+.spot-price-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.spot-price-card--gold .spot-price-value {
+  color: var(--gold);
+}
+
+.spot-price-card--silver .spot-price-value {
+  color: var(--silver);
+}
+
+.spot-price-value {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.spot-price-value--loading,
+.spot-price-value--error {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.spot-price-change {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.spot-price-change--up {
+  color: var(--positive);
+}
+
+.spot-price-change--down {
+  color: var(--negative);
+}
+
+.spot-price-refresh {
+  margin-left: auto;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.spot-price-refresh:hover:not(:disabled) {
+  background: var(--border);
+}
+
+.spot-price-refresh:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.spot-price-error {
+  width: 100%;
+  font-size: 0.8rem;
+  color: var(--negative);
+}
