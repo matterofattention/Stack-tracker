@@ -1,9 +1,10 @@
 name: Sync Numista collection
 
 on:
-  schedule:
-    - cron: '0 6 * * 1'   # Weekly, Monday 06:00 UTC
-  workflow_dispatch:         # Allow manual trigger
+  # Scheduled auto-sync is paused for now — trigger manually from the
+  # Actions tab when you want to pull your Numista collection.
+  # Re-add a `schedule:` trigger here to resume automatic syncing.
+  workflow_dispatch:
 
 permissions:
   contents: write
