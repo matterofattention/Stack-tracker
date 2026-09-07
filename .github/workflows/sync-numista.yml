@@ -1,0 +1,49 @@
+name: Sync Numista collection
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Weekly, Monday 06:00 UTC
+  workflow_dispatch:         # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refuse to run on a public repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          is_private=$(gh api repos/${{ github.repository }} --jq .private)
+          if [ "$is_private" != "true" ]; then
+            echo "::error::This workflow commits your personal Numista collection (purchase prices, quantities, notes) into the repository. Refusing to run because the repository is public. Make it private in Settings before running this."
+            exit 1
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Numista sync
+        env:
+          NUMISTA_API_KEY: ${{ secrets.NUMISTA_API_KEY }}
+          NUMISTA_CLIENT_ID: ${{ secrets.NUMISTA_CLIENT_ID }}
+        run: node scripts/sync-numista.js
+
+      - name: Commit updated snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/numista-collection.json
+          git diff --staged --quiet || git commit -m "chore: sync Numista collection"
+          git push

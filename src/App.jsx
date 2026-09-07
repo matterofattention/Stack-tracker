@@ -4,17 +4,23 @@ import SpotPriceBar from './components/SpotPriceBar'
 import PortfolioSummary from './components/PortfolioSummary'
 import HoldingsTable from './components/HoldingsTable'
 import HoldingForm from './components/HoldingForm'
+import NumistaImportModal from './components/NumistaImportModal'
 import { useHoldings } from './hooks/useHoldings'
 import { fetchSpotPrices } from './services/spotPrices'
+import { fetchNumistaSnapshot } from './services/numistaSnapshot'
 import { summarizePortfolio } from './utils/portfolio'
 
 export default function App() {
-  const { holdings, addHolding, updateHolding, deleteHolding } = useHoldings()
+  const { holdings, addHolding, addHoldings, updateHolding, deleteHolding } = useHoldings()
   const [spotPrices, setSpotPrices] = useState(null)
   const [spotLoading, setSpotLoading] = useState(true)
   const [spotError, setSpotError] = useState(null)
   const [formOpen, setFormOpen] = useState(false)
   const [editingHolding, setEditingHolding] = useState(null)
+  const [numistaModalOpen, setNumistaModalOpen] = useState(false)
+  const [numistaSnapshot, setNumistaSnapshot] = useState(null)
+  const [numistaLoading, setNumistaLoading] = useState(false)
+  const [numistaError, setNumistaError] = useState(null)
 
   const fetchAndSetSpotPrices = useCallback(async () => {
     try {
@@ -65,15 +71,41 @@ export default function App() {
     }
   }
 
+  async function handleOpenNumistaImport() {
+    setNumistaModalOpen(true)
+    setNumistaLoading(true)
+    setNumistaError(null)
+    try {
+      const snapshot = await fetchNumistaSnapshot()
+      setNumistaSnapshot(snapshot)
+    } catch (err) {
+      setNumistaError(err.message)
+    } finally {
+      setNumistaLoading(false)
+    }
+  }
+
+  function handleNumistaImport(newHoldings) {
+    addHoldings(newHoldings)
+    setNumistaModalOpen(false)
+  }
+
+  const existingNumistaIds = new Set(holdings.map((h) => h.numistaItemId).filter(Boolean))
+
   const summary = summarizePortfolio(holdings, spotPrices)
 
   return (
     <div className="app">
       <header className="app-header">
         <h1>Stack Tracker</h1>
-        <button className="btn btn--primary" onClick={handleAddClick}>
-          + Add purchase
-        </button>
+        <div className="app-header-actions">
+          <button className="btn btn--ghost" onClick={handleOpenNumistaImport}>
+            Import from Numista
+          </button>
+          <button className="btn btn--primary" onClick={handleAddClick}>
+            + Add purchase
+          </button>
+        </div>
       </header>
 
       <SpotPriceBar
@@ -97,6 +129,18 @@ export default function App() {
           initialValue={editingHolding}
           onSubmit={handleSubmit}
           onCancel={() => setFormOpen(false)}
+        />
+      )}
+
+      {numistaModalOpen && (
+        <NumistaImportModal
+          key={numistaLoading ? 'loading' : 'loaded'}
+          snapshot={numistaSnapshot}
+          loading={numistaLoading}
+          error={numistaError}
+          existingNumistaIds={existingNumistaIds}
+          onImport={handleNumistaImport}
+          onCancel={() => setNumistaModalOpen(false)}
         />
       )}
     </div>

@@ -1,0 +1,107 @@
+.numista-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding: 1rem;
+}
+
+.numista-modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 520px;
+  max-height: 85vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.numista-modal h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.numista-meta {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.numista-empty {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.numista-item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.numista-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+}
+
+.numista-item label {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.numista-item-main {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.numista-item-name {
+  font-weight: 600;
+}
+
+.numista-item-weight {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.numista-warning {
+  font-size: 0.75rem;
+  color: var(--negative);
+  width: 100%;
+  padding-left: 1.6rem;
+}
+
+.numista-needs-review {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.numista-needs-review ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.numista-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}

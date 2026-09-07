@@ -31,6 +31,10 @@ export function useHoldings() {
     setHoldings((prev) => [...prev, newHolding])
   }, [])
 
+  const addHoldings = useCallback((newHoldings) => {
+    setHoldings((prev) => [...prev, ...newHoldings.map((h) => ({ ...h, id: crypto.randomUUID() }))])
+  }, [])
+
   const updateHolding = useCallback((id, updates) => {
     setHoldings((prev) => prev.map((h) => (h.id === id ? { ...h, ...updates } : h)))
   }, [])
@@ -39,5 +43,5 @@ export function useHoldings() {
     setHoldings((prev) => prev.filter((h) => h.id !== id))
   }, [])
 
-  return { holdings, addHolding, updateHolding, deleteHolding }
+  return { holdings, addHolding, addHoldings, updateHolding, deleteHolding }
 }
