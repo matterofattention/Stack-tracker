@@ -17,3 +17,8 @@
   font-size: 1.6rem;
   margin: 0;
 }
+
+.app-header-actions {
+  display: flex;
+  gap: 0.6rem;
+}
